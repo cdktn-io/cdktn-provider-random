@@ -1,28 +1,28 @@
-# `bytes` Submodule <a name="`bytes` Submodule" id="@cdktf/provider-random.bytes"></a>
+# `bytes` Submodule <a name="`bytes` Submodule" id="@cdktn/provider-random.bytes"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### Bytes <a name="Bytes" id="@cdktf/provider-random.bytes.Bytes"></a>
+### Bytes <a name="Bytes" id="@cdktn/provider-random.bytes.Bytes"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.7.2/docs/resources/bytes random_bytes}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-random.bytes.Bytes.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-random.bytes.Bytes.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/bytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/bytes"
 
 bytes.NewBytes(scope Construct, id *string, config BytesConfig) Bytes
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-random.bytes.BytesConfig">BytesConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-random.bytes.BytesConfig">BytesConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-random.bytes.Bytes.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-random.bytes.Bytes.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-random.bytes.Bytes.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-random.bytes.Bytes.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-random.bytes.Bytes.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-random.bytes.Bytes.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-random.bytes.BytesConfig">BytesConfig</a>
+- *Type:* <a href="#@cdktn/provider-random.bytes.BytesConfig">BytesConfig</a>
 
 ---
 
@@ -50,34 +50,34 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.hasResourceMove">HasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.importFrom">ImportFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.resetKeepers">ResetKeepers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.importFrom">ImportFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.resetKeepers">ResetKeepers</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-random.bytes.Bytes.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-random.bytes.Bytes.toString"></a>
 
 ```go
 func ToString() *string
@@ -85,25 +85,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-random.bytes.Bytes.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-random.bytes.Bytes.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-random.bytes.Bytes.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-random.bytes.Bytes.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-random.bytes.Bytes.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-random.bytes.Bytes.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-random.bytes.Bytes.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-random.bytes.Bytes.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -111,7 +111,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-random.bytes.Bytes.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-random.bytes.Bytes.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -119,7 +119,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-random.bytes.Bytes.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-random.bytes.Bytes.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -127,19 +127,19 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-random.bytes.Bytes.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-random.bytes.Bytes.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
 ```
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-random.bytes.Bytes.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-random.bytes.Bytes.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-random.bytes.Bytes.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-random.bytes.Bytes.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -147,7 +147,7 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-random.bytes.Bytes.addMoveTarget"></a>
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktn/provider-random.bytes.Bytes.addMoveTarget"></a>
 
 ```go
 func AddMoveTarget(moveTarget *string)
@@ -155,7 +155,7 @@ func AddMoveTarget(moveTarget *string)
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-random.bytes.Bytes.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-random.bytes.Bytes.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -163,151 +163,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-random.bytes.Bytes.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-random.bytes.Bytes.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.bytes.Bytes.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.bytes.Bytes.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-random.bytes.Bytes.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-random.bytes.Bytes.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.bytes.Bytes.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.bytes.Bytes.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-random.bytes.Bytes.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-random.bytes.Bytes.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.bytes.Bytes.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.bytes.Bytes.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-random.bytes.Bytes.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-random.bytes.Bytes.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.bytes.Bytes.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.bytes.Bytes.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-random.bytes.Bytes.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-random.bytes.Bytes.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.bytes.Bytes.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.bytes.Bytes.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-random.bytes.Bytes.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-random.bytes.Bytes.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.bytes.Bytes.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.bytes.Bytes.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-random.bytes.Bytes.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-random.bytes.Bytes.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.bytes.Bytes.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.bytes.Bytes.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-random.bytes.Bytes.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-random.bytes.Bytes.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.bytes.Bytes.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.bytes.Bytes.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-random.bytes.Bytes.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-random.bytes.Bytes.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.bytes.Bytes.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.bytes.Bytes.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `HasResourceMove` <a name="HasResourceMove" id="@cdktf/provider-random.bytes.Bytes.hasResourceMove"></a>
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktn/provider-random.bytes.Bytes.hasResourceMove"></a>
 
 ```go
 func HasResourceMove() interface{}
 ```
 
-##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-random.bytes.Bytes.importFrom"></a>
+##### `ImportFrom` <a name="ImportFrom" id="@cdktn/provider-random.bytes.Bytes.importFrom"></a>
 
 ```go
 func ImportFrom(id *string, provider TerraformProvider)
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-random.bytes.Bytes.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-random.bytes.Bytes.importFrom.parameter.id"></a>
 
 - *Type:* *string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-random.bytes.Bytes.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.bytes.Bytes.importFrom.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-random.bytes.Bytes.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-random.bytes.Bytes.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.bytes.Bytes.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.bytes.Bytes.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `MoveFromId` <a name="MoveFromId" id="@cdktf/provider-random.bytes.Bytes.moveFromId"></a>
+##### `MoveFromId` <a name="MoveFromId" id="@cdktn/provider-random.bytes.Bytes.moveFromId"></a>
 
 ```go
 func MoveFromId(id *string)
@@ -317,7 +317,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-random.bytes.Bytes.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-random.bytes.Bytes.moveFromId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -325,7 +325,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-random.bytes.Bytes.moveTo"></a>
+##### `MoveTo` <a name="MoveTo" id="@cdktn/provider-random.bytes.Bytes.moveTo"></a>
 
 ```go
 func MoveTo(moveTarget *string, index interface{})
@@ -333,7 +333,7 @@ func MoveTo(moveTarget *string, index interface{})
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-random.bytes.Bytes.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-random.bytes.Bytes.moveTo.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -341,7 +341,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-random.bytes.Bytes.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-random.bytes.Bytes.moveTo.parameter.index"></a>
 
 - *Type:* interface{}
 
@@ -349,7 +349,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `MoveToId` <a name="MoveToId" id="@cdktf/provider-random.bytes.Bytes.moveToId"></a>
+##### `MoveToId` <a name="MoveToId" id="@cdktn/provider-random.bytes.Bytes.moveToId"></a>
 
 ```go
 func MoveToId(id *string)
@@ -357,7 +357,7 @@ func MoveToId(id *string)
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-random.bytes.Bytes.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-random.bytes.Bytes.moveToId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -365,7 +365,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `ResetKeepers` <a name="ResetKeepers" id="@cdktf/provider-random.bytes.Bytes.resetKeepers"></a>
+##### `ResetKeepers` <a name="ResetKeepers" id="@cdktn/provider-random.bytes.Bytes.resetKeepers"></a>
 
 ```go
 func ResetKeepers()
@@ -375,17 +375,17 @@ func ResetKeepers()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a Bytes resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a Bytes resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-random.bytes.Bytes.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-random.bytes.Bytes.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/bytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/bytes"
 
 bytes.Bytes_IsConstruct(x interface{}) *bool
 ```
@@ -406,7 +406,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-random.bytes.Bytes.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-random.bytes.Bytes.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -414,45 +414,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-random.bytes.Bytes.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-random.bytes.Bytes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/bytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/bytes"
 
 bytes.Bytes_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-random.bytes.Bytes.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-random.bytes.Bytes.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-random.bytes.Bytes.isTerraformResource"></a>
+##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-random.bytes.Bytes.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/bytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/bytes"
 
 bytes.Bytes_IsTerraformResource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-random.bytes.Bytes.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-random.bytes.Bytes.isTerraformResource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-random.bytes.Bytes.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-random.bytes.Bytes.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/bytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/bytes"
 
 bytes.Bytes_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a Bytes resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-random.bytes.Bytes.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-random.bytes.Bytes.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -460,7 +460,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-random.bytes.Bytes.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-random.bytes.Bytes.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -468,7 +468,7 @@ The construct id used in the generated config for the Bytes to import.
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-random.bytes.Bytes.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-random.bytes.Bytes.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
@@ -478,7 +478,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.7
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-random.bytes.Bytes.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.bytes.Bytes.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -490,30 +490,30 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.7
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.base64">Base64</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.hex">Hex</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.keepersInput">KeepersInput</a></code> | <code>*map[string]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.lengthInput">LengthInput</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.keepers">Keepers</a></code> | <code>*map[string]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.length">Length</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.base64">Base64</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.hex">Hex</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.keepersInput">KeepersInput</a></code> | <code>*map[string]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.lengthInput">LengthInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.keepers">Keepers</a></code> | <code>*map[string]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.length">Length</a></code> | <code>*f64</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-random.bytes.Bytes.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-random.bytes.Bytes.property.node"></a>
 
 ```go
 func Node() Node
@@ -525,7 +525,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-random.bytes.Bytes.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-random.bytes.Bytes.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -535,7 +535,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-random.bytes.Bytes.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-random.bytes.Bytes.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -545,7 +545,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-random.bytes.Bytes.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-random.bytes.Bytes.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -555,7 +555,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-random.bytes.Bytes.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-random.bytes.Bytes.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -565,7 +565,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-random.bytes.Bytes.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-random.bytes.Bytes.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -575,7 +575,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-random.bytes.Bytes.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-random.bytes.Bytes.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -585,7 +585,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-random.bytes.Bytes.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-random.bytes.Bytes.property.connection"></a>
 
 ```go
 func Connection() interface{}
@@ -595,7 +595,7 @@ func Connection() interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-random.bytes.Bytes.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-random.bytes.Bytes.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -605,7 +605,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-random.bytes.Bytes.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-random.bytes.Bytes.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -615,7 +615,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-random.bytes.Bytes.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-random.bytes.Bytes.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -625,7 +625,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-random.bytes.Bytes.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-random.bytes.Bytes.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -635,7 +635,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-random.bytes.Bytes.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-random.bytes.Bytes.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -645,7 +645,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-random.bytes.Bytes.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-random.bytes.Bytes.property.provisioners"></a>
 
 ```go
 func Provisioners() *[]interface{}
@@ -655,7 +655,7 @@ func Provisioners() *[]interface{}
 
 ---
 
-##### `Base64`<sup>Required</sup> <a name="Base64" id="@cdktf/provider-random.bytes.Bytes.property.base64"></a>
+##### `Base64`<sup>Required</sup> <a name="Base64" id="@cdktn/provider-random.bytes.Bytes.property.base64"></a>
 
 ```go
 func Base64() *string
@@ -665,7 +665,7 @@ func Base64() *string
 
 ---
 
-##### `Hex`<sup>Required</sup> <a name="Hex" id="@cdktf/provider-random.bytes.Bytes.property.hex"></a>
+##### `Hex`<sup>Required</sup> <a name="Hex" id="@cdktn/provider-random.bytes.Bytes.property.hex"></a>
 
 ```go
 func Hex() *string
@@ -675,7 +675,7 @@ func Hex() *string
 
 ---
 
-##### `KeepersInput`<sup>Optional</sup> <a name="KeepersInput" id="@cdktf/provider-random.bytes.Bytes.property.keepersInput"></a>
+##### `KeepersInput`<sup>Optional</sup> <a name="KeepersInput" id="@cdktn/provider-random.bytes.Bytes.property.keepersInput"></a>
 
 ```go
 func KeepersInput() *map[string]*string
@@ -685,7 +685,7 @@ func KeepersInput() *map[string]*string
 
 ---
 
-##### `LengthInput`<sup>Optional</sup> <a name="LengthInput" id="@cdktf/provider-random.bytes.Bytes.property.lengthInput"></a>
+##### `LengthInput`<sup>Optional</sup> <a name="LengthInput" id="@cdktn/provider-random.bytes.Bytes.property.lengthInput"></a>
 
 ```go
 func LengthInput() *f64
@@ -695,7 +695,7 @@ func LengthInput() *f64
 
 ---
 
-##### `Keepers`<sup>Required</sup> <a name="Keepers" id="@cdktf/provider-random.bytes.Bytes.property.keepers"></a>
+##### `Keepers`<sup>Required</sup> <a name="Keepers" id="@cdktn/provider-random.bytes.Bytes.property.keepers"></a>
 
 ```go
 func Keepers() *map[string]*string
@@ -705,7 +705,7 @@ func Keepers() *map[string]*string
 
 ---
 
-##### `Length`<sup>Required</sup> <a name="Length" id="@cdktf/provider-random.bytes.Bytes.property.length"></a>
+##### `Length`<sup>Required</sup> <a name="Length" id="@cdktn/provider-random.bytes.Bytes.property.length"></a>
 
 ```go
 func Length() *f64
@@ -719,11 +719,11 @@ func Length() *f64
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-random.bytes.Bytes.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.Bytes.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-random.bytes.Bytes.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-random.bytes.Bytes.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -735,12 +735,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### BytesConfig <a name="BytesConfig" id="@cdktf/provider-random.bytes.BytesConfig"></a>
+### BytesConfig <a name="BytesConfig" id="@cdktn/provider-random.bytes.BytesConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-random.bytes.BytesConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-random.bytes.BytesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/bytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/bytes"
 
 &bytes.BytesConfig {
 	Connection: interface{},
@@ -759,19 +759,19 @@ import "github.com/cdktf/cdktf-provider-random-go/random/v12/bytes"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-random.bytes.BytesConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.BytesConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.BytesConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.BytesConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.BytesConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.BytesConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.BytesConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.bytes.BytesConfig.property.length">Length</a></code> | <code>*f64</code> | The number of bytes requested. The minimum value for length is 1. |
-| <code><a href="#@cdktf/provider-random.bytes.BytesConfig.property.keepers">Keepers</a></code> | <code>*map[string]*string</code> | Arbitrary map of values that, when changed, will trigger recreation of resource. |
+| <code><a href="#@cdktn/provider-random.bytes.BytesConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.BytesConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.BytesConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.BytesConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.BytesConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.BytesConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.BytesConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.bytes.BytesConfig.property.length">Length</a></code> | <code>*f64</code> | The number of bytes requested. The minimum value for length is 1. |
+| <code><a href="#@cdktn/provider-random.bytes.BytesConfig.property.keepers">Keepers</a></code> | <code>*map[string]*string</code> | Arbitrary map of values that, when changed, will trigger recreation of resource. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-random.bytes.BytesConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-random.bytes.BytesConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -781,7 +781,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-random.bytes.BytesConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-random.bytes.BytesConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -791,7 +791,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-random.bytes.BytesConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-random.bytes.BytesConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -801,7 +801,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-random.bytes.BytesConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-random.bytes.BytesConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -811,7 +811,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-random.bytes.BytesConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-random.bytes.BytesConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -821,7 +821,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-random.bytes.BytesConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-random.bytes.BytesConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -831,7 +831,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-random.bytes.BytesConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-random.bytes.BytesConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -841,7 +841,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `Length`<sup>Required</sup> <a name="Length" id="@cdktf/provider-random.bytes.BytesConfig.property.length"></a>
+##### `Length`<sup>Required</sup> <a name="Length" id="@cdktn/provider-random.bytes.BytesConfig.property.length"></a>
 
 ```go
 Length *f64
@@ -855,7 +855,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Keepers`<sup>Optional</sup> <a name="Keepers" id="@cdktf/provider-random.bytes.BytesConfig.property.keepers"></a>
+##### `Keepers`<sup>Optional</sup> <a name="Keepers" id="@cdktn/provider-random.bytes.BytesConfig.property.keepers"></a>
 
 ```go
 Keepers *map[string]*string
