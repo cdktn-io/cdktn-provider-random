@@ -1,28 +1,28 @@
-# `shuffle` Submodule <a name="`shuffle` Submodule" id="@cdktf/provider-random.shuffle"></a>
+# `shuffle` Submodule <a name="`shuffle` Submodule" id="@cdktn/provider-random.shuffle"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### Shuffle <a name="Shuffle" id="@cdktf/provider-random.shuffle.Shuffle"></a>
+### Shuffle <a name="Shuffle" id="@cdktn/provider-random.shuffle.Shuffle"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.7.2/docs/resources/shuffle random_shuffle}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-random.shuffle.Shuffle.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-random.shuffle.Shuffle.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v12/shuffle"
 
 shuffle.NewShuffle(scope Construct, id *string, config ShuffleConfig) Shuffle
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig">ShuffleConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig">ShuffleConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-random.shuffle.Shuffle.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-random.shuffle.Shuffle.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-random.shuffle.Shuffle.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-random.shuffle.Shuffle.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-random.shuffle.Shuffle.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-random.shuffle.Shuffle.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-random.shuffle.ShuffleConfig">ShuffleConfig</a>
+- *Type:* <a href="#@cdktn/provider-random.shuffle.ShuffleConfig">ShuffleConfig</a>
 
 ---
 
@@ -50,36 +50,36 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.hasResourceMove">HasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.importFrom">ImportFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.resetKeepers">ResetKeepers</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.resetResultCount">ResetResultCount</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.resetSeed">ResetSeed</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.importFrom">ImportFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.resetKeepers">ResetKeepers</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.resetResultCount">ResetResultCount</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.resetSeed">ResetSeed</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-random.shuffle.Shuffle.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-random.shuffle.Shuffle.toString"></a>
 
 ```go
 func ToString() *string
@@ -87,25 +87,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-random.shuffle.Shuffle.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-random.shuffle.Shuffle.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-random.shuffle.Shuffle.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-random.shuffle.Shuffle.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-random.shuffle.Shuffle.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-random.shuffle.Shuffle.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-random.shuffle.Shuffle.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-random.shuffle.Shuffle.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -113,7 +113,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-random.shuffle.Shuffle.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-random.shuffle.Shuffle.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -121,7 +121,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-random.shuffle.Shuffle.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-random.shuffle.Shuffle.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -129,19 +129,19 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-random.shuffle.Shuffle.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-random.shuffle.Shuffle.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
 ```
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-random.shuffle.Shuffle.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-random.shuffle.Shuffle.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-random.shuffle.Shuffle.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-random.shuffle.Shuffle.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -149,7 +149,7 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-random.shuffle.Shuffle.addMoveTarget"></a>
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktn/provider-random.shuffle.Shuffle.addMoveTarget"></a>
 
 ```go
 func AddMoveTarget(moveTarget *string)
@@ -157,7 +157,7 @@ func AddMoveTarget(moveTarget *string)
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-random.shuffle.Shuffle.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-random.shuffle.Shuffle.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -165,151 +165,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.shuffle.Shuffle.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.shuffle.Shuffle.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `HasResourceMove` <a name="HasResourceMove" id="@cdktf/provider-random.shuffle.Shuffle.hasResourceMove"></a>
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktn/provider-random.shuffle.Shuffle.hasResourceMove"></a>
 
 ```go
 func HasResourceMove() interface{}
 ```
 
-##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-random.shuffle.Shuffle.importFrom"></a>
+##### `ImportFrom` <a name="ImportFrom" id="@cdktn/provider-random.shuffle.Shuffle.importFrom"></a>
 
 ```go
 func ImportFrom(id *string, provider TerraformProvider)
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-random.shuffle.Shuffle.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-random.shuffle.Shuffle.importFrom.parameter.id"></a>
 
 - *Type:* *string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-random.shuffle.Shuffle.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.shuffle.Shuffle.importFrom.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-random.shuffle.Shuffle.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-random.shuffle.Shuffle.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-random.shuffle.Shuffle.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-random.shuffle.Shuffle.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `MoveFromId` <a name="MoveFromId" id="@cdktf/provider-random.shuffle.Shuffle.moveFromId"></a>
+##### `MoveFromId` <a name="MoveFromId" id="@cdktn/provider-random.shuffle.Shuffle.moveFromId"></a>
 
 ```go
 func MoveFromId(id *string)
@@ -319,7 +319,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-random.shuffle.Shuffle.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-random.shuffle.Shuffle.moveFromId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -327,7 +327,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-random.shuffle.Shuffle.moveTo"></a>
+##### `MoveTo` <a name="MoveTo" id="@cdktn/provider-random.shuffle.Shuffle.moveTo"></a>
 
 ```go
 func MoveTo(moveTarget *string, index interface{})
@@ -335,7 +335,7 @@ func MoveTo(moveTarget *string, index interface{})
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-random.shuffle.Shuffle.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-random.shuffle.Shuffle.moveTo.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -343,7 +343,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-random.shuffle.Shuffle.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-random.shuffle.Shuffle.moveTo.parameter.index"></a>
 
 - *Type:* interface{}
 
@@ -351,7 +351,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `MoveToId` <a name="MoveToId" id="@cdktf/provider-random.shuffle.Shuffle.moveToId"></a>
+##### `MoveToId` <a name="MoveToId" id="@cdktn/provider-random.shuffle.Shuffle.moveToId"></a>
 
 ```go
 func MoveToId(id *string)
@@ -359,7 +359,7 @@ func MoveToId(id *string)
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-random.shuffle.Shuffle.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-random.shuffle.Shuffle.moveToId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -367,19 +367,19 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `ResetKeepers` <a name="ResetKeepers" id="@cdktf/provider-random.shuffle.Shuffle.resetKeepers"></a>
+##### `ResetKeepers` <a name="ResetKeepers" id="@cdktn/provider-random.shuffle.Shuffle.resetKeepers"></a>
 
 ```go
 func ResetKeepers()
 ```
 
-##### `ResetResultCount` <a name="ResetResultCount" id="@cdktf/provider-random.shuffle.Shuffle.resetResultCount"></a>
+##### `ResetResultCount` <a name="ResetResultCount" id="@cdktn/provider-random.shuffle.Shuffle.resetResultCount"></a>
 
 ```go
 func ResetResultCount()
 ```
 
-##### `ResetSeed` <a name="ResetSeed" id="@cdktf/provider-random.shuffle.Shuffle.resetSeed"></a>
+##### `ResetSeed` <a name="ResetSeed" id="@cdktn/provider-random.shuffle.Shuffle.resetSeed"></a>
 
 ```go
 func ResetSeed()
@@ -389,17 +389,17 @@ func ResetSeed()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a Shuffle resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a Shuffle resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-random.shuffle.Shuffle.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-random.shuffle.Shuffle.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v12/shuffle"
 
 shuffle.Shuffle_IsConstruct(x interface{}) *bool
 ```
@@ -420,7 +420,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-random.shuffle.Shuffle.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-random.shuffle.Shuffle.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -428,45 +428,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-random.shuffle.Shuffle.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-random.shuffle.Shuffle.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v12/shuffle"
 
 shuffle.Shuffle_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-random.shuffle.Shuffle.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-random.shuffle.Shuffle.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-random.shuffle.Shuffle.isTerraformResource"></a>
+##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-random.shuffle.Shuffle.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v12/shuffle"
 
 shuffle.Shuffle_IsTerraformResource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-random.shuffle.Shuffle.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-random.shuffle.Shuffle.isTerraformResource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-random.shuffle.Shuffle.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-random.shuffle.Shuffle.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v12/shuffle"
 
 shuffle.Shuffle_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a Shuffle resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-random.shuffle.Shuffle.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-random.shuffle.Shuffle.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -474,7 +474,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-random.shuffle.Shuffle.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-random.shuffle.Shuffle.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -482,7 +482,7 @@ The construct id used in the generated config for the Shuffle to import.
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-random.shuffle.Shuffle.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-random.shuffle.Shuffle.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
@@ -492,7 +492,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.7
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-random.shuffle.Shuffle.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.shuffle.Shuffle.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -504,34 +504,34 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.7
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.id">Id</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.result">Result</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.inputInput">InputInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.keepersInput">KeepersInput</a></code> | <code>*map[string]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.resultCountInput">ResultCountInput</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.seedInput">SeedInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.input">Input</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.keepers">Keepers</a></code> | <code>*map[string]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.resultCount">ResultCount</a></code> | <code>*f64</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.seed">Seed</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.result">Result</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.inputInput">InputInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.keepersInput">KeepersInput</a></code> | <code>*map[string]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.resultCountInput">ResultCountInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.seedInput">SeedInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.input">Input</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.keepers">Keepers</a></code> | <code>*map[string]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.resultCount">ResultCount</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.seed">Seed</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-random.shuffle.Shuffle.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-random.shuffle.Shuffle.property.node"></a>
 
 ```go
 func Node() Node
@@ -543,7 +543,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-random.shuffle.Shuffle.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-random.shuffle.Shuffle.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -553,7 +553,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-random.shuffle.Shuffle.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-random.shuffle.Shuffle.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -563,7 +563,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-random.shuffle.Shuffle.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-random.shuffle.Shuffle.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -573,7 +573,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-random.shuffle.Shuffle.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-random.shuffle.Shuffle.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -583,7 +583,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-random.shuffle.Shuffle.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-random.shuffle.Shuffle.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -593,7 +593,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-random.shuffle.Shuffle.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-random.shuffle.Shuffle.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -603,7 +603,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-random.shuffle.Shuffle.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-random.shuffle.Shuffle.property.connection"></a>
 
 ```go
 func Connection() interface{}
@@ -613,7 +613,7 @@ func Connection() interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-random.shuffle.Shuffle.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-random.shuffle.Shuffle.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -623,7 +623,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-random.shuffle.Shuffle.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-random.shuffle.Shuffle.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -633,7 +633,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-random.shuffle.Shuffle.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-random.shuffle.Shuffle.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -643,7 +643,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-random.shuffle.Shuffle.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-random.shuffle.Shuffle.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -653,7 +653,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-random.shuffle.Shuffle.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-random.shuffle.Shuffle.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -663,7 +663,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-random.shuffle.Shuffle.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-random.shuffle.Shuffle.property.provisioners"></a>
 
 ```go
 func Provisioners() *[]interface{}
@@ -673,7 +673,7 @@ func Provisioners() *[]interface{}
 
 ---
 
-##### `Id`<sup>Required</sup> <a name="Id" id="@cdktf/provider-random.shuffle.Shuffle.property.id"></a>
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-random.shuffle.Shuffle.property.id"></a>
 
 ```go
 func Id() *string
@@ -683,7 +683,7 @@ func Id() *string
 
 ---
 
-##### `Result`<sup>Required</sup> <a name="Result" id="@cdktf/provider-random.shuffle.Shuffle.property.result"></a>
+##### `Result`<sup>Required</sup> <a name="Result" id="@cdktn/provider-random.shuffle.Shuffle.property.result"></a>
 
 ```go
 func Result() *[]*string
@@ -693,7 +693,7 @@ func Result() *[]*string
 
 ---
 
-##### `InputInput`<sup>Optional</sup> <a name="InputInput" id="@cdktf/provider-random.shuffle.Shuffle.property.inputInput"></a>
+##### `InputInput`<sup>Optional</sup> <a name="InputInput" id="@cdktn/provider-random.shuffle.Shuffle.property.inputInput"></a>
 
 ```go
 func InputInput() *[]*string
@@ -703,7 +703,7 @@ func InputInput() *[]*string
 
 ---
 
-##### `KeepersInput`<sup>Optional</sup> <a name="KeepersInput" id="@cdktf/provider-random.shuffle.Shuffle.property.keepersInput"></a>
+##### `KeepersInput`<sup>Optional</sup> <a name="KeepersInput" id="@cdktn/provider-random.shuffle.Shuffle.property.keepersInput"></a>
 
 ```go
 func KeepersInput() *map[string]*string
@@ -713,7 +713,7 @@ func KeepersInput() *map[string]*string
 
 ---
 
-##### `ResultCountInput`<sup>Optional</sup> <a name="ResultCountInput" id="@cdktf/provider-random.shuffle.Shuffle.property.resultCountInput"></a>
+##### `ResultCountInput`<sup>Optional</sup> <a name="ResultCountInput" id="@cdktn/provider-random.shuffle.Shuffle.property.resultCountInput"></a>
 
 ```go
 func ResultCountInput() *f64
@@ -723,7 +723,7 @@ func ResultCountInput() *f64
 
 ---
 
-##### `SeedInput`<sup>Optional</sup> <a name="SeedInput" id="@cdktf/provider-random.shuffle.Shuffle.property.seedInput"></a>
+##### `SeedInput`<sup>Optional</sup> <a name="SeedInput" id="@cdktn/provider-random.shuffle.Shuffle.property.seedInput"></a>
 
 ```go
 func SeedInput() *string
@@ -733,7 +733,7 @@ func SeedInput() *string
 
 ---
 
-##### `Input`<sup>Required</sup> <a name="Input" id="@cdktf/provider-random.shuffle.Shuffle.property.input"></a>
+##### `Input`<sup>Required</sup> <a name="Input" id="@cdktn/provider-random.shuffle.Shuffle.property.input"></a>
 
 ```go
 func Input() *[]*string
@@ -743,7 +743,7 @@ func Input() *[]*string
 
 ---
 
-##### `Keepers`<sup>Required</sup> <a name="Keepers" id="@cdktf/provider-random.shuffle.Shuffle.property.keepers"></a>
+##### `Keepers`<sup>Required</sup> <a name="Keepers" id="@cdktn/provider-random.shuffle.Shuffle.property.keepers"></a>
 
 ```go
 func Keepers() *map[string]*string
@@ -753,7 +753,7 @@ func Keepers() *map[string]*string
 
 ---
 
-##### `ResultCount`<sup>Required</sup> <a name="ResultCount" id="@cdktf/provider-random.shuffle.Shuffle.property.resultCount"></a>
+##### `ResultCount`<sup>Required</sup> <a name="ResultCount" id="@cdktn/provider-random.shuffle.Shuffle.property.resultCount"></a>
 
 ```go
 func ResultCount() *f64
@@ -763,7 +763,7 @@ func ResultCount() *f64
 
 ---
 
-##### `Seed`<sup>Required</sup> <a name="Seed" id="@cdktf/provider-random.shuffle.Shuffle.property.seed"></a>
+##### `Seed`<sup>Required</sup> <a name="Seed" id="@cdktn/provider-random.shuffle.Shuffle.property.seed"></a>
 
 ```go
 func Seed() *string
@@ -777,11 +777,11 @@ func Seed() *string
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-random.shuffle.Shuffle.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.Shuffle.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-random.shuffle.Shuffle.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-random.shuffle.Shuffle.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -793,12 +793,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### ShuffleConfig <a name="ShuffleConfig" id="@cdktf/provider-random.shuffle.ShuffleConfig"></a>
+### ShuffleConfig <a name="ShuffleConfig" id="@cdktn/provider-random.shuffle.ShuffleConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-random.shuffle.ShuffleConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-random.shuffle.ShuffleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-random-go/random/v12/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v12/shuffle"
 
 &shuffle.ShuffleConfig {
 	Connection: interface{},
@@ -819,21 +819,21 @@ import "github.com/cdktf/cdktf-provider-random-go/random/v12/shuffle"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.input">Input</a></code> | <code>*[]*string</code> | The list of strings to shuffle. |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.keepers">Keepers</a></code> | <code>*map[string]*string</code> | Arbitrary map of values that, when changed, will trigger recreation of resource. |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.resultCount">ResultCount</a></code> | <code>*f64</code> | The number of results to return. |
-| <code><a href="#@cdktf/provider-random.shuffle.ShuffleConfig.property.seed">Seed</a></code> | <code>*string</code> | Arbitrary string with which to seed the random number generator, in order to produce less-volatile permutations of the list. |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.input">Input</a></code> | <code>*[]*string</code> | The list of strings to shuffle. |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.keepers">Keepers</a></code> | <code>*map[string]*string</code> | Arbitrary map of values that, when changed, will trigger recreation of resource. |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.resultCount">ResultCount</a></code> | <code>*f64</code> | The number of results to return. |
+| <code><a href="#@cdktn/provider-random.shuffle.ShuffleConfig.property.seed">Seed</a></code> | <code>*string</code> | Arbitrary string with which to seed the random number generator, in order to produce less-volatile permutations of the list. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -843,7 +843,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -853,7 +853,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -863,7 +863,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -873,7 +873,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -883,7 +883,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -893,7 +893,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -903,7 +903,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `Input`<sup>Required</sup> <a name="Input" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.input"></a>
+##### `Input`<sup>Required</sup> <a name="Input" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.input"></a>
 
 ```go
 Input *[]*string
@@ -917,7 +917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Keepers`<sup>Optional</sup> <a name="Keepers" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.keepers"></a>
+##### `Keepers`<sup>Optional</sup> <a name="Keepers" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.keepers"></a>
 
 ```go
 Keepers *map[string]*string
@@ -933,7 +933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ResultCount`<sup>Optional</sup> <a name="ResultCount" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.resultCount"></a>
+##### `ResultCount`<sup>Optional</sup> <a name="ResultCount" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.resultCount"></a>
 
 ```go
 ResultCount *f64
@@ -949,7 +949,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Seed`<sup>Optional</sup> <a name="Seed" id="@cdktf/provider-random.shuffle.ShuffleConfig.property.seed"></a>
+##### `Seed`<sup>Optional</sup> <a name="Seed" id="@cdktn/provider-random.shuffle.ShuffleConfig.property.seed"></a>
 
 ```go
 Seed *string
