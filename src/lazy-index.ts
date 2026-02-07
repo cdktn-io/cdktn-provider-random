@@ -1,5 +1,5 @@
 /**
- * Copyright (c) HashiCorp, Inc.
+ * Copyright IBM Corp. 2021, 2026
  * SPDX-License-Identifier: MPL-2.0
  */
 
@@ -12,5 +12,7 @@ Object.defineProperty(exports, 'pet', { get: function () { return require('./pet
 Object.defineProperty(exports, 'shuffle', { get: function () { return require('./shuffle'); } });
 Object.defineProperty(exports, 'stringResource', { get: function () { return require('./string-resource'); } });
 Object.defineProperty(exports, 'uuid', { get: function () { return require('./uuid'); } });
+Object.defineProperty(exports, 'uuid4', { get: function () { return require('./uuid4'); } });
+Object.defineProperty(exports, 'uuid7', { get: function () { return require('./uuid7'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

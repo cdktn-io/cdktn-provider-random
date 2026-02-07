@@ -1,5 +1,5 @@
 /**
- * Copyright (c) HashiCorp, Inc.
+ * Copyright IBM Corp. 2021, 2026
  * SPDX-License-Identifier: MPL-2.0
  */
 
@@ -12,5 +12,7 @@ export * as pet from './pet';
 export * as shuffle from './shuffle';
 export * as stringResource from './string-resource';
 export * as uuid from './uuid';
+export * as uuid4 from './uuid4';
+export * as uuid7 from './uuid7';
 export * as provider from './provider';
 
