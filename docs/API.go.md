@@ -13,6 +13,8 @@ The following submodules are available:
 - [shuffle](./shuffle.go.md)
 - [stringResource](./stringResource.go.md)
 - [uuid](./uuid.go.md)
+- [uuid4](./uuid4.go.md)
+- [uuid7](./uuid7.go.md)
 
 
 
