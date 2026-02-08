@@ -13,6 +13,8 @@ The following submodules are available:
 - [shuffle](./shuffle.python.md)
 - [stringResource](./stringResource.python.md)
 - [uuid](./uuid.python.md)
+- [uuid4](./uuid4.python.md)
+- [uuid7](./uuid7.python.md)
 
 
 

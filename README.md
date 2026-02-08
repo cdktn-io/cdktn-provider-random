@@ -1,7 +1,7 @@
 
-# CDKTF prebuilt bindings for hashicorp/random provider version 3.7.2
+# CDKTF prebuilt bindings for hashicorp/random provider version 3.8.1
 
-This repo builds and publishes the [Terraform random provider](https://registry.terraform.io/providers/hashicorp/random/3.7.2/docs) bindings for [CDK for Terraform](https://cdk.tf).
+This repo builds and publishes the [Terraform random provider](https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs) bindings for [CDK for Terraform](https://cdk.tf).
 
 ## Available Packages
 
@@ -19,17 +19,17 @@ The PyPI package is available at [https://pypi.org/project/cdktn-provider-random
 
 ### Nuget
 
-The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Random](https://www.nuget.org/packages/Io.Cdktn.Cdktn.Providers.Random).
+The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Providers.Random](https://www.nuget.org/packages/Io.Cdktn.Providers.Random).
 
-`dotnet add package Io.Cdktn.Cdktn.Providers.Random`
+`dotnet add package Io.Cdktn.Providers.Random`
 
 ### Maven
 
-The Maven package is available at [https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-random](https://mvnrepository.com/artifact/com.Io.Cdktn/cdktn-provider-random).
+The Maven package is available at [https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-random](https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-random).
 
 ```
 <dependency>
-    <groupId>com.Io.Cdktn</groupId>
+    <groupId>io.cdktn</groupId>
     <artifactId>cdktn-provider-random</artifactId>
     <version>[REPLACE WITH DESIRED VERSION]</version>
 </dependency>
@@ -63,7 +63,7 @@ This project is explicitly not tracking the Terraform random provider version 1:
 These are the upstream dependencies:
 
 - [CDK for Terraform](https://cdk.tf) - Last official release
-- [Terraform random provider](https://registry.terraform.io/providers/hashicorp/random/3.7.2)
+- [Terraform random provider](https://registry.terraform.io/providers/hashicorp/random/3.8.1)
 - [Terraform Engine](https://terraform.io)
 
 If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.
