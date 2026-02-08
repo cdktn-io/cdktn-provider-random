@@ -13,6 +13,8 @@ The following submodules are available:
 - [shuffle](./shuffle.typescript.md)
 - [stringResource](./stringResource.typescript.md)
 - [uuid](./uuid.typescript.md)
+- [uuid4](./uuid4.typescript.md)
+- [uuid7](./uuid7.typescript.md)
 
 
 
