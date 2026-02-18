@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface ShuffleConfig extends cdktf.TerraformMetaArguments {
+export interface ShuffleConfig extends cdktn.TerraformMetaArguments {
   /**
   * The list of strings to shuffle.
   *
@@ -43,7 +43,7 @@ export interface ShuffleConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/shuffle random_shuffle}
 */
-export class Shuffle extends cdktf.TerraformResource {
+export class Shuffle extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -54,14 +54,14 @@ export class Shuffle extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Shuffle resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Shuffle resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Shuffle to import
   * @param importFromId The id of the existing Shuffle that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/shuffle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Shuffle to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "random_shuffle", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "random_shuffle", importId: importFromId, provider });
       }
 
   // ===========
@@ -178,35 +178,35 @@ export class Shuffle extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      input: cdktf.listMapper(cdktf.stringToTerraform, false)(this._input),
-      keepers: cdktf.hashMapper(cdktf.stringToTerraform)(this._keepers),
-      result_count: cdktf.numberToTerraform(this._resultCount),
-      seed: cdktf.stringToTerraform(this._seed),
+      input: cdktn.listMapper(cdktn.stringToTerraform, false)(this._input),
+      keepers: cdktn.hashMapper(cdktn.stringToTerraform)(this._keepers),
+      result_count: cdktn.numberToTerraform(this._resultCount),
+      seed: cdktn.stringToTerraform(this._seed),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       input: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._input),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._input),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       keepers: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._keepers),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._keepers),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       result_count: {
-        value: cdktf.numberToHclTerraform(this._resultCount),
+        value: cdktn.numberToHclTerraform(this._resultCount),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       seed: {
-        value: cdktf.stringToHclTerraform(this._seed),
+        value: cdktn.stringToHclTerraform(this._seed),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface IdConfig extends cdktf.TerraformMetaArguments {
+export interface IdConfig extends cdktn.TerraformMetaArguments {
   /**
   * The number of random bytes to produce. The minimum value is 1, which produces eight bits of randomness.
   *
@@ -35,7 +35,7 @@ export interface IdConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/id random_id}
 */
-export class Id extends cdktf.TerraformResource {
+export class Id extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -46,14 +46,14 @@ export class Id extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Id resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Id resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Id to import
   * @param importFromId The id of the existing Id that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Id to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "random_id", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "random_id", importId: importFromId, provider });
       }
 
   // ===========
@@ -168,28 +168,28 @@ export class Id extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      byte_length: cdktf.numberToTerraform(this._byteLength),
-      keepers: cdktf.hashMapper(cdktf.stringToTerraform)(this._keepers),
-      prefix: cdktf.stringToTerraform(this._prefix),
+      byte_length: cdktn.numberToTerraform(this._byteLength),
+      keepers: cdktn.hashMapper(cdktn.stringToTerraform)(this._keepers),
+      prefix: cdktn.stringToTerraform(this._prefix),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       byte_length: {
-        value: cdktf.numberToHclTerraform(this._byteLength),
+        value: cdktn.numberToHclTerraform(this._byteLength),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       keepers: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._keepers),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._keepers),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       prefix: {
-        value: cdktf.stringToHclTerraform(this._prefix),
+        value: cdktn.stringToHclTerraform(this._prefix),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

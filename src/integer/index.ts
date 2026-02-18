@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface IntegerConfig extends cdktf.TerraformMetaArguments {
+export interface IntegerConfig extends cdktn.TerraformMetaArguments {
   /**
   * Arbitrary map of values that, when changed, will trigger recreation of resource. See [the main provider documentation](../index.html) for more information.
   *
@@ -41,7 +41,7 @@ export interface IntegerConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer random_integer}
 */
-export class Integer extends cdktf.TerraformResource {
+export class Integer extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -52,14 +52,14 @@ export class Integer extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Integer resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Integer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Integer to import
   * @param importFromId The id of the existing Integer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Integer to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "random_integer", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "random_integer", importId: importFromId, provider });
       }
 
   // ===========
@@ -173,35 +173,35 @@ export class Integer extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      keepers: cdktf.hashMapper(cdktf.stringToTerraform)(this._keepers),
-      max: cdktf.numberToTerraform(this._max),
-      min: cdktf.numberToTerraform(this._min),
-      seed: cdktf.stringToTerraform(this._seed),
+      keepers: cdktn.hashMapper(cdktn.stringToTerraform)(this._keepers),
+      max: cdktn.numberToTerraform(this._max),
+      min: cdktn.numberToTerraform(this._min),
+      seed: cdktn.stringToTerraform(this._seed),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       keepers: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._keepers),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._keepers),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       max: {
-        value: cdktf.numberToHclTerraform(this._max),
+        value: cdktn.numberToHclTerraform(this._max),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       min: {
-        value: cdktf.numberToHclTerraform(this._min),
+        value: cdktn.numberToHclTerraform(this._min),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       seed: {
-        value: cdktf.stringToHclTerraform(this._seed),
+        value: cdktn.stringToHclTerraform(this._seed),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
