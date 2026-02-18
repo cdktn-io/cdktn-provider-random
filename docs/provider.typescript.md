@@ -144,7 +144,7 @@ public resetAlias(): void
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.isTerraformProvider">isTerraformProvider</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.provider.RandomProvider.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a RandomProvider resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-random.provider.RandomProvider.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a RandomProvider resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -216,7 +216,7 @@ import { provider } from '@cdktn/provider-random'
 provider.RandomProvider.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a RandomProvider resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a RandomProvider resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-random.provider.RandomProvider.generateConfigForImport.parameter.scope"></a>
 
@@ -246,7 +246,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.provider.RandomProvider.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the RandomProvider to import is found.
 
@@ -257,12 +257,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.metaAttributes">metaAttributes</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.terraformProviderSource">terraformProviderSource</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.alias">alias</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.provider.RandomProvider.property.aliasInput">aliasInput</a></code> | <code>string</code> | *No description.* |
@@ -287,7 +287,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -337,7 +337,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
