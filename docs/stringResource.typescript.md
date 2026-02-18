@@ -301,7 +301,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.stringResource.StringResource.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -448,7 +448,7 @@ public resetUpper(): void
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a StringResource resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a StringResource resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -520,7 +520,7 @@ import { stringResource } from '@cdktn/provider-random'
 stringResource.StringResource.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a StringResource resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a StringResource resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-random.stringResource.StringResource.generateConfigForImport.parameter.scope"></a>
 
@@ -550,7 +550,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.stringResource.StringResource.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the StringResource to import is found.
 
@@ -561,45 +561,45 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.result">result</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.keepersInput">keepersInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.lengthInput">lengthInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.lowerInput">lowerInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.lowerInput">lowerInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.minLowerInput">minLowerInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.minNumericInput">minNumericInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.minSpecialInput">minSpecialInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.minUpperInput">minUpperInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.numberInput">numberInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.numericInput">numericInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.numberInput">numberInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.numericInput">numericInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.overrideSpecialInput">overrideSpecialInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.specialInput">specialInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.upperInput">upperInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.specialInput">specialInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.upperInput">upperInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.keepers">keepers</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.length">length</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.lower">lower</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.lower">lower</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.minLower">minLower</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.minNumeric">minNumeric</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.minSpecial">minSpecial</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.minUpper">minUpper</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.number">number</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.numeric">numeric</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.number">number</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.numeric">numeric</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.overrideSpecial">overrideSpecial</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.special">special</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.upper">upper</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.special">special</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResource.property.upper">upper</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 
 ---
 
@@ -621,7 +621,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -671,7 +671,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -681,7 +681,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -691,7 +691,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -711,7 +711,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -721,7 +721,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -731,7 +731,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -741,7 +741,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -791,7 +791,7 @@ public readonly lengthInput: number;
 public readonly lowerInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -841,7 +841,7 @@ public readonly minUpperInput: number;
 public readonly numberInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -851,7 +851,7 @@ public readonly numberInput: boolean | IResolvable;
 public readonly numericInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -871,7 +871,7 @@ public readonly overrideSpecialInput: string;
 public readonly specialInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -881,7 +881,7 @@ public readonly specialInput: boolean | IResolvable;
 public readonly upperInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -911,7 +911,7 @@ public readonly length: number;
 public readonly lower: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -961,7 +961,7 @@ public readonly minUpper: number;
 public readonly number: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -971,7 +971,7 @@ public readonly number: boolean | IResolvable;
 public readonly numeric: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -991,7 +991,7 @@ public readonly overrideSpecial: string;
 public readonly special: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1001,7 +1001,7 @@ public readonly special: boolean | IResolvable;
 public readonly upper: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1039,25 +1039,25 @@ const stringResourceConfig: stringResource.StringResourceConfig = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.length">length</a></code> | <code>number</code> | The length of the string desired. |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.keepers">keepers</a></code> | <code>{[ key: string ]: string}</code> | Arbitrary map of values that, when changed, will trigger recreation of resource. |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.lower">lower</a></code> | <code>boolean \| cdktf.IResolvable</code> | Include lowercase alphabet characters in the result. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.lower">lower</a></code> | <code>boolean \| cdktn.IResolvable</code> | Include lowercase alphabet characters in the result. Default value is `true`. |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.minLower">minLower</a></code> | <code>number</code> | Minimum number of lowercase alphabet characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.minNumeric">minNumeric</a></code> | <code>number</code> | Minimum number of numeric characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.minSpecial">minSpecial</a></code> | <code>number</code> | Minimum number of special characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.minUpper">minUpper</a></code> | <code>number</code> | Minimum number of uppercase alphabet characters in the result. Default value is `0`. |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.number">number</a></code> | <code>boolean \| cdktf.IResolvable</code> | Include numeric characters in the result. |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.numeric">numeric</a></code> | <code>boolean \| cdktf.IResolvable</code> | Include numeric characters in the result. |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.number">number</a></code> | <code>boolean \| cdktn.IResolvable</code> | Include numeric characters in the result. |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.numeric">numeric</a></code> | <code>boolean \| cdktn.IResolvable</code> | Include numeric characters in the result. |
 | <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.overrideSpecial">overrideSpecial</a></code> | <code>string</code> | Supply your own list of special characters to use for string generation. |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.special">special</a></code> | <code>boolean \| cdktf.IResolvable</code> | Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`. |
-| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.upper">upper</a></code> | <code>boolean \| cdktf.IResolvable</code> | Include uppercase alphabet characters in the result. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.special">special</a></code> | <code>boolean \| cdktn.IResolvable</code> | Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.stringResource.StringResourceConfig.property.upper">upper</a></code> | <code>boolean \| cdktn.IResolvable</code> | Include uppercase alphabet characters in the result. Default value is `true`. |
 
 ---
 
@@ -1067,7 +1067,7 @@ const stringResourceConfig: stringResource.StringResourceConfig = { ... }
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -1077,7 +1077,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -1087,7 +1087,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -1097,7 +1097,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -1107,7 +1107,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1117,7 +1117,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1127,7 +1127,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -1169,7 +1169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly lower: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Include lowercase alphabet characters in the result. Default value is `true`.
 
@@ -1239,7 +1239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly number: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Include numeric characters in the result.
 
@@ -1255,7 +1255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly numeric: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Include numeric characters in the result.
 
@@ -1287,7 +1287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly special: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`.
 
@@ -1301,7 +1301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly upper: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Include uppercase alphabet characters in the result. Default value is `true`.
 

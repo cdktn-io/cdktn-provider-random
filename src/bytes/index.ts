@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface BytesConfig extends cdktf.TerraformMetaArguments {
+export interface BytesConfig extends cdktn.TerraformMetaArguments {
   /**
   * Arbitrary map of values that, when changed, will trigger recreation of resource. See [the main provider documentation](../index.html) for more information.
   *
@@ -29,7 +29,7 @@ export interface BytesConfig extends cdktf.TerraformMetaArguments {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/bytes random_bytes}
 */
-export class Bytes extends cdktf.TerraformResource {
+export class Bytes extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -40,14 +40,14 @@ export class Bytes extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a Bytes resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a Bytes resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Bytes to import
   * @param importFromId The id of the existing Bytes that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/bytes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Bytes to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "random_bytes", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "random_bytes", importId: importFromId, provider });
       }
 
   // ===========
@@ -130,21 +130,21 @@ export class Bytes extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      keepers: cdktf.hashMapper(cdktf.stringToTerraform)(this._keepers),
-      length: cdktf.numberToTerraform(this._length),
+      keepers: cdktn.hashMapper(cdktn.stringToTerraform)(this._keepers),
+      length: cdktn.numberToTerraform(this._length),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       keepers: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._keepers),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._keepers),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       length: {
-        value: cdktf.numberToHclTerraform(this._length),
+        value: cdktn.numberToHclTerraform(this._length),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

@@ -40,25 +40,25 @@ password.Password(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
 | <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.length">length</a></code> | <code>typing.Union[int, float]</code> | The length of the string desired. |
 | <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.keepers">keepers</a></code> | <code>typing.Mapping[str]</code> | Arbitrary map of values that, when changed, will trigger recreation of resource. |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.lower">lower</a></code> | <code>bool \| cdktf.IResolvable</code> | Include lowercase alphabet characters in the result. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.lower">lower</a></code> | <code>bool \| cdktn.IResolvable</code> | Include lowercase alphabet characters in the result. Default value is `true`. |
 | <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.minLower">min_lower</a></code> | <code>typing.Union[int, float]</code> | Minimum number of lowercase alphabet characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.minNumeric">min_numeric</a></code> | <code>typing.Union[int, float]</code> | Minimum number of numeric characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.minSpecial">min_special</a></code> | <code>typing.Union[int, float]</code> | Minimum number of special characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.minUpper">min_upper</a></code> | <code>typing.Union[int, float]</code> | Minimum number of uppercase alphabet characters in the result. Default value is `0`. |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.number">number</a></code> | <code>bool \| cdktf.IResolvable</code> | Include numeric characters in the result. |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.numeric">numeric</a></code> | <code>bool \| cdktf.IResolvable</code> | Include numeric characters in the result. |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.number">number</a></code> | <code>bool \| cdktn.IResolvable</code> | Include numeric characters in the result. |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.numeric">numeric</a></code> | <code>bool \| cdktn.IResolvable</code> | Include numeric characters in the result. |
 | <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.overrideSpecial">override_special</a></code> | <code>str</code> | Supply your own list of special characters to use for string generation. |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.special">special</a></code> | <code>bool \| cdktf.IResolvable</code> | Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`. |
-| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.upper">upper</a></code> | <code>bool \| cdktf.IResolvable</code> | Include uppercase alphabet characters in the result. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.special">special</a></code> | <code>bool \| cdktn.IResolvable</code> | Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.password.Password.Initializer.parameter.upper">upper</a></code> | <code>bool \| cdktn.IResolvable</code> | Include uppercase alphabet characters in the result. Default value is `true`. |
 
 ---
 
@@ -82,43 +82,43 @@ Must be unique amongst siblings in the same scope
 
 ##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-random.password.Password.Initializer.parameter.connection"></a>
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-random.password.Password.Initializer.parameter.count"></a>
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
 ##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-random.password.Password.Initializer.parameter.dependsOn"></a>
 
-- *Type:* typing.List[cdktf.ITerraformDependable]
+- *Type:* typing.List[cdktn.ITerraformDependable]
 
 ---
 
 ##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-random.password.Password.Initializer.parameter.forEach"></a>
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
 ##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-random.password.Password.Initializer.parameter.lifecycle"></a>
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
 ##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.password.Password.Initializer.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
 ##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-random.password.Password.Initializer.parameter.provisioners"></a>
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ##### `lower`<sup>Optional</sup> <a name="lower" id="@cdktn/provider-random.password.Password.Initializer.parameter.lower"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Include lowercase alphabet characters in the result. Default value is `true`.
 
@@ -198,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ##### `number`<sup>Optional</sup> <a name="number" id="@cdktn/provider-random.password.Password.Initializer.parameter.number"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Include numeric characters in the result.
 
@@ -210,7 +210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ##### `numeric`<sup>Optional</sup> <a name="numeric" id="@cdktn/provider-random.password.Password.Initializer.parameter.numeric"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Include numeric characters in the result.
 
@@ -234,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ##### `special`<sup>Optional</sup> <a name="special" id="@cdktn/provider-random.password.Password.Initializer.parameter.special"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`.
 
@@ -244,7 +244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ##### `upper`<sup>Optional</sup> <a name="upper" id="@cdktn/provider-random.password.Password.Initializer.parameter.upper"></a>
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Include uppercase alphabet characters in the result. Default value is `true`.
 
@@ -535,7 +535,7 @@ def import_from(
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.password.Password.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -691,7 +691,7 @@ def reset_upper() -> None
 | <code><a href="#@cdktn/provider-random.password.Password.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-random.password.Password.isTerraformElement">is_terraform_element</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a Password resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-random.password.Password.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTN code for importing a Password resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -774,7 +774,7 @@ password.Password.generate_config_for_import(
 )
 ```
 
-Generates CDKTF code for importing a Password resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a Password resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-random.password.Password.generateConfigForImport.parameter.scope"></a>
 
@@ -804,7 +804,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.password.Password.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the Password to import is found.
 
@@ -815,46 +815,46 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-random.password.Password.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-random.password.Password.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.cdktfStack">cdktf_stack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.bcryptHash">bcrypt_hash</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.result">result</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.keepersInput">keepers_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.lengthInput">length_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.lowerInput">lower_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.lowerInput">lower_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minLowerInput">min_lower_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minNumericInput">min_numeric_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minSpecialInput">min_special_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minUpperInput">min_upper_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.numberInput">number_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.numericInput">numeric_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.numberInput">number_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.numericInput">numeric_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.overrideSpecialInput">override_special_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.specialInput">special_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.upperInput">upper_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.specialInput">special_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.upperInput">upper_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.keepers">keepers</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.length">length</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.lower">lower</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.lower">lower</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minLower">min_lower</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minNumeric">min_numeric</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minSpecial">min_special</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minUpper">min_upper</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.number">number</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.numeric">numeric</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.number">number</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.numeric">numeric</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.overrideSpecial">override_special</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.special">special</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.upper">upper</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.special">special</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.upper">upper</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 
 ---
 
@@ -876,7 +876,7 @@ The tree node.
 cdktf_stack: TerraformStack
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -926,7 +926,7 @@ terraform_resource_type: str
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -936,7 +936,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -946,7 +946,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 count: typing.Union[int, float] | TerraformCount
 ```
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
@@ -966,7 +966,7 @@ depends_on: typing.List[str]
 for_each: ITerraformIterator
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -976,7 +976,7 @@ for_each: ITerraformIterator
 lifecycle: TerraformResourceLifecycle
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -986,7 +986,7 @@ lifecycle: TerraformResourceLifecycle
 provider: TerraformProvider
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -996,7 +996,7 @@ provider: TerraformProvider
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
 ```
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -1056,7 +1056,7 @@ length_input: typing.Union[int, float]
 lower_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1106,7 +1106,7 @@ min_upper_input: typing.Union[int, float]
 number_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1116,7 +1116,7 @@ number_input: bool | IResolvable
 numeric_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1136,7 +1136,7 @@ override_special_input: str
 special_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1146,7 +1146,7 @@ special_input: bool | IResolvable
 upper_input: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1176,7 +1176,7 @@ length: typing.Union[int, float]
 lower: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1226,7 +1226,7 @@ min_upper: typing.Union[int, float]
 number: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1236,7 +1236,7 @@ number: bool | IResolvable
 numeric: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1256,7 +1256,7 @@ override_special: str
 special: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1266,7 +1266,7 @@ special: bool | IResolvable
 upper: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 ---
 
@@ -1324,25 +1324,25 @@ password.PasswordConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.length">length</a></code> | <code>typing.Union[int, float]</code> | The length of the string desired. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.keepers">keepers</a></code> | <code>typing.Mapping[str]</code> | Arbitrary map of values that, when changed, will trigger recreation of resource. |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.lower">lower</a></code> | <code>bool \| cdktf.IResolvable</code> | Include lowercase alphabet characters in the result. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.lower">lower</a></code> | <code>bool \| cdktn.IResolvable</code> | Include lowercase alphabet characters in the result. Default value is `true`. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.minLower">min_lower</a></code> | <code>typing.Union[int, float]</code> | Minimum number of lowercase alphabet characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.minNumeric">min_numeric</a></code> | <code>typing.Union[int, float]</code> | Minimum number of numeric characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.minSpecial">min_special</a></code> | <code>typing.Union[int, float]</code> | Minimum number of special characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.minUpper">min_upper</a></code> | <code>typing.Union[int, float]</code> | Minimum number of uppercase alphabet characters in the result. Default value is `0`. |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.number">number</a></code> | <code>bool \| cdktf.IResolvable</code> | Include numeric characters in the result. |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.numeric">numeric</a></code> | <code>bool \| cdktf.IResolvable</code> | Include numeric characters in the result. |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.number">number</a></code> | <code>bool \| cdktn.IResolvable</code> | Include numeric characters in the result. |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.numeric">numeric</a></code> | <code>bool \| cdktn.IResolvable</code> | Include numeric characters in the result. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.overrideSpecial">override_special</a></code> | <code>str</code> | Supply your own list of special characters to use for string generation. |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.special">special</a></code> | <code>bool \| cdktf.IResolvable</code> | Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`. |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.upper">upper</a></code> | <code>bool \| cdktf.IResolvable</code> | Include uppercase alphabet characters in the result. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.special">special</a></code> | <code>bool \| cdktn.IResolvable</code> | Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.upper">upper</a></code> | <code>bool \| cdktn.IResolvable</code> | Include uppercase alphabet characters in the result. Default value is `true`. |
 
 ---
 
@@ -1352,7 +1352,7 @@ password.PasswordConfig(
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -1362,7 +1362,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 count: typing.Union[int, float] | TerraformCount
 ```
 
-- *Type:* typing.Union[int, float] | cdktf.TerraformCount
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
 
 ---
 
@@ -1372,7 +1372,7 @@ count: typing.Union[int, float] | TerraformCount
 depends_on: typing.List[ITerraformDependable]
 ```
 
-- *Type:* typing.List[cdktf.ITerraformDependable]
+- *Type:* typing.List[cdktn.ITerraformDependable]
 
 ---
 
@@ -1382,7 +1382,7 @@ depends_on: typing.List[ITerraformDependable]
 for_each: ITerraformIterator
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -1392,7 +1392,7 @@ for_each: ITerraformIterator
 lifecycle: TerraformResourceLifecycle
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1402,7 +1402,7 @@ lifecycle: TerraformResourceLifecycle
 provider: TerraformProvider
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1412,7 +1412,7 @@ provider: TerraformProvider
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
 ```
 
-- *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
 
 ---
 
@@ -1454,7 +1454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 lower: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Include lowercase alphabet characters in the result. Default value is `true`.
 
@@ -1524,7 +1524,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 number: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Include numeric characters in the result.
 
@@ -1540,7 +1540,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 numeric: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Include numeric characters in the result.
 
@@ -1572,7 +1572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 special: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`.
 
@@ -1586,7 +1586,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 upper: bool | IResolvable
 ```
 
-- *Type:* bool | cdktf.IResolvable
+- *Type:* bool | cdktn.IResolvable
 
 Include uppercase alphabet characters in the result. Default value is `true`.
 

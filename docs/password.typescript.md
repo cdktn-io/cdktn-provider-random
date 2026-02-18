@@ -301,7 +301,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.password.Password.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -448,7 +448,7 @@ public resetUpper(): void
 | <code><a href="#@cdktn/provider-random.password.Password.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-random.password.Password.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a Password resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-random.password.Password.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a Password resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -520,7 +520,7 @@ import { password } from '@cdktn/provider-random'
 password.Password.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a Password resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a Password resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-random.password.Password.generateConfigForImport.parameter.scope"></a>
 
@@ -550,7 +550,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-random.password.Password.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the Password to import is found.
 
@@ -561,46 +561,46 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-random.password.Password.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-random.password.Password.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.bcryptHash">bcryptHash</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.result">result</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.keepersInput">keepersInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.lengthInput">lengthInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.lowerInput">lowerInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.lowerInput">lowerInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minLowerInput">minLowerInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minNumericInput">minNumericInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minSpecialInput">minSpecialInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minUpperInput">minUpperInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.numberInput">numberInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.numericInput">numericInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.numberInput">numberInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.numericInput">numericInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.overrideSpecialInput">overrideSpecialInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.specialInput">specialInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.upperInput">upperInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.specialInput">specialInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.upperInput">upperInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.keepers">keepers</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.length">length</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.lower">lower</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.lower">lower</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minLower">minLower</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minNumeric">minNumeric</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minSpecial">minSpecial</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.minUpper">minUpper</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.number">number</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.numeric">numeric</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.number">number</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.numeric">numeric</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.Password.property.overrideSpecial">overrideSpecial</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.special">special</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.Password.property.upper">upper</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.special">special</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.Password.property.upper">upper</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 
 ---
 
@@ -622,7 +622,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -672,7 +672,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -682,7 +682,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -692,7 +692,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -712,7 +712,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -722,7 +722,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -732,7 +732,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -742,7 +742,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -802,7 +802,7 @@ public readonly lengthInput: number;
 public readonly lowerInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -852,7 +852,7 @@ public readonly minUpperInput: number;
 public readonly numberInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -862,7 +862,7 @@ public readonly numberInput: boolean | IResolvable;
 public readonly numericInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -882,7 +882,7 @@ public readonly overrideSpecialInput: string;
 public readonly specialInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -892,7 +892,7 @@ public readonly specialInput: boolean | IResolvable;
 public readonly upperInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -922,7 +922,7 @@ public readonly length: number;
 public readonly lower: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -972,7 +972,7 @@ public readonly minUpper: number;
 public readonly number: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -982,7 +982,7 @@ public readonly number: boolean | IResolvable;
 public readonly numeric: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1002,7 +1002,7 @@ public readonly overrideSpecial: string;
 public readonly special: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1012,7 +1012,7 @@ public readonly special: boolean | IResolvable;
 public readonly upper: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -1050,25 +1050,25 @@ const passwordConfig: password.PasswordConfig = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.length">length</a></code> | <code>number</code> | The length of the string desired. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.keepers">keepers</a></code> | <code>{[ key: string ]: string}</code> | Arbitrary map of values that, when changed, will trigger recreation of resource. |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.lower">lower</a></code> | <code>boolean \| cdktf.IResolvable</code> | Include lowercase alphabet characters in the result. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.lower">lower</a></code> | <code>boolean \| cdktn.IResolvable</code> | Include lowercase alphabet characters in the result. Default value is `true`. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.minLower">minLower</a></code> | <code>number</code> | Minimum number of lowercase alphabet characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.minNumeric">minNumeric</a></code> | <code>number</code> | Minimum number of numeric characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.minSpecial">minSpecial</a></code> | <code>number</code> | Minimum number of special characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.minUpper">minUpper</a></code> | <code>number</code> | Minimum number of uppercase alphabet characters in the result. Default value is `0`. |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.number">number</a></code> | <code>boolean \| cdktf.IResolvable</code> | Include numeric characters in the result. |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.numeric">numeric</a></code> | <code>boolean \| cdktf.IResolvable</code> | Include numeric characters in the result. |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.number">number</a></code> | <code>boolean \| cdktn.IResolvable</code> | Include numeric characters in the result. |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.numeric">numeric</a></code> | <code>boolean \| cdktn.IResolvable</code> | Include numeric characters in the result. |
 | <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.overrideSpecial">overrideSpecial</a></code> | <code>string</code> | Supply your own list of special characters to use for string generation. |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.special">special</a></code> | <code>boolean \| cdktf.IResolvable</code> | Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`. |
-| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.upper">upper</a></code> | <code>boolean \| cdktf.IResolvable</code> | Include uppercase alphabet characters in the result. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.special">special</a></code> | <code>boolean \| cdktn.IResolvable</code> | Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`. |
+| <code><a href="#@cdktn/provider-random.password.PasswordConfig.property.upper">upper</a></code> | <code>boolean \| cdktn.IResolvable</code> | Include uppercase alphabet characters in the result. Default value is `true`. |
 
 ---
 
@@ -1078,7 +1078,7 @@ const passwordConfig: password.PasswordConfig = { ... }
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -1088,7 +1088,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -1098,7 +1098,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -1108,7 +1108,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -1118,7 +1118,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -1128,7 +1128,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -1138,7 +1138,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -1180,7 +1180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly lower: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Include lowercase alphabet characters in the result. Default value is `true`.
 
@@ -1250,7 +1250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly number: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Include numeric characters in the result.
 
@@ -1266,7 +1266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly numeric: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Include numeric characters in the result.
 
@@ -1298,7 +1298,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly special: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`.
 
@@ -1312,7 +1312,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly upper: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Include uppercase alphabet characters in the result. Default value is `true`.
 

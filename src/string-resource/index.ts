@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface StringResourceConfig extends cdktf.TerraformMetaArguments {
+export interface StringResourceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Arbitrary map of values that, when changed, will trigger recreation of resource. See [the main provider documentation](../index.html) for more information.
   *
@@ -29,7 +29,7 @@ export interface StringResourceConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/string#lower StringResource#lower}
   */
-  readonly lower?: boolean | cdktf.IResolvable;
+  readonly lower?: boolean | cdktn.IResolvable;
   /**
   * Minimum number of lowercase alphabet characters in the result. Default value is `0`.
   *
@@ -59,13 +59,13 @@ export interface StringResourceConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/string#number StringResource#number}
   */
-  readonly number?: boolean | cdktf.IResolvable;
+  readonly number?: boolean | cdktn.IResolvable;
   /**
   * Include numeric characters in the result. Default value is `true`. If `numeric`, `upper`, `lower`, and `special` are all configured, at least one of them must be set to `true`.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/string#numeric StringResource#numeric}
   */
-  readonly numeric?: boolean | cdktf.IResolvable;
+  readonly numeric?: boolean | cdktn.IResolvable;
   /**
   * Supply your own list of special characters to use for string generation.  This overrides the default character list in the special argument.  The `special` argument must still be set to true for any overwritten characters to be used in generation.
   *
@@ -77,19 +77,19 @@ export interface StringResourceConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/string#special StringResource#special}
   */
-  readonly special?: boolean | cdktf.IResolvable;
+  readonly special?: boolean | cdktn.IResolvable;
   /**
   * Include uppercase alphabet characters in the result. Default value is `true`.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/string#upper StringResource#upper}
   */
-  readonly upper?: boolean | cdktf.IResolvable;
+  readonly upper?: boolean | cdktn.IResolvable;
 }
 
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/string random_string}
 */
-export class StringResource extends cdktf.TerraformResource {
+export class StringResource extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -100,14 +100,14 @@ export class StringResource extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a StringResource resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a StringResource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StringResource to import
   * @param importFromId The id of the existing StringResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/string#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StringResource to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "random_string", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "random_string", importId: importFromId, provider });
       }
 
   // ===========
@@ -190,11 +190,11 @@ export class StringResource extends cdktf.TerraformResource {
   }
 
   // lower - computed: true, optional: true, required: false
-  private _lower?: boolean | cdktf.IResolvable; 
+  private _lower?: boolean | cdktn.IResolvable; 
   public get lower() {
     return this.getBooleanAttribute('lower');
   }
-  public set lower(value: boolean | cdktf.IResolvable) {
+  public set lower(value: boolean | cdktn.IResolvable) {
     this._lower = value;
   }
   public resetLower() {
@@ -270,11 +270,11 @@ export class StringResource extends cdktf.TerraformResource {
   }
 
   // number - computed: true, optional: true, required: false
-  private _number?: boolean | cdktf.IResolvable; 
+  private _number?: boolean | cdktn.IResolvable; 
   public get number() {
     return this.getBooleanAttribute('number');
   }
-  public set number(value: boolean | cdktf.IResolvable) {
+  public set number(value: boolean | cdktn.IResolvable) {
     this._number = value;
   }
   public resetNumber() {
@@ -286,11 +286,11 @@ export class StringResource extends cdktf.TerraformResource {
   }
 
   // numeric - computed: true, optional: true, required: false
-  private _numeric?: boolean | cdktf.IResolvable; 
+  private _numeric?: boolean | cdktn.IResolvable; 
   public get numeric() {
     return this.getBooleanAttribute('numeric');
   }
-  public set numeric(value: boolean | cdktf.IResolvable) {
+  public set numeric(value: boolean | cdktn.IResolvable) {
     this._numeric = value;
   }
   public resetNumeric() {
@@ -323,11 +323,11 @@ export class StringResource extends cdktf.TerraformResource {
   }
 
   // special - computed: true, optional: true, required: false
-  private _special?: boolean | cdktf.IResolvable; 
+  private _special?: boolean | cdktn.IResolvable; 
   public get special() {
     return this.getBooleanAttribute('special');
   }
-  public set special(value: boolean | cdktf.IResolvable) {
+  public set special(value: boolean | cdktn.IResolvable) {
     this._special = value;
   }
   public resetSpecial() {
@@ -339,11 +339,11 @@ export class StringResource extends cdktf.TerraformResource {
   }
 
   // upper - computed: true, optional: true, required: false
-  private _upper?: boolean | cdktf.IResolvable; 
+  private _upper?: boolean | cdktn.IResolvable; 
   public get upper() {
     return this.getBooleanAttribute('upper');
   }
-  public set upper(value: boolean | cdktf.IResolvable) {
+  public set upper(value: boolean | cdktn.IResolvable) {
     this._upper = value;
   }
   public resetUpper() {
@@ -360,91 +360,91 @@ export class StringResource extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      keepers: cdktf.hashMapper(cdktf.stringToTerraform)(this._keepers),
-      length: cdktf.numberToTerraform(this._length),
-      lower: cdktf.booleanToTerraform(this._lower),
-      min_lower: cdktf.numberToTerraform(this._minLower),
-      min_numeric: cdktf.numberToTerraform(this._minNumeric),
-      min_special: cdktf.numberToTerraform(this._minSpecial),
-      min_upper: cdktf.numberToTerraform(this._minUpper),
-      number: cdktf.booleanToTerraform(this._number),
-      numeric: cdktf.booleanToTerraform(this._numeric),
-      override_special: cdktf.stringToTerraform(this._overrideSpecial),
-      special: cdktf.booleanToTerraform(this._special),
-      upper: cdktf.booleanToTerraform(this._upper),
+      keepers: cdktn.hashMapper(cdktn.stringToTerraform)(this._keepers),
+      length: cdktn.numberToTerraform(this._length),
+      lower: cdktn.booleanToTerraform(this._lower),
+      min_lower: cdktn.numberToTerraform(this._minLower),
+      min_numeric: cdktn.numberToTerraform(this._minNumeric),
+      min_special: cdktn.numberToTerraform(this._minSpecial),
+      min_upper: cdktn.numberToTerraform(this._minUpper),
+      number: cdktn.booleanToTerraform(this._number),
+      numeric: cdktn.booleanToTerraform(this._numeric),
+      override_special: cdktn.stringToTerraform(this._overrideSpecial),
+      special: cdktn.booleanToTerraform(this._special),
+      upper: cdktn.booleanToTerraform(this._upper),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       keepers: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._keepers),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._keepers),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       length: {
-        value: cdktf.numberToHclTerraform(this._length),
+        value: cdktn.numberToHclTerraform(this._length),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       lower: {
-        value: cdktf.booleanToHclTerraform(this._lower),
+        value: cdktn.booleanToHclTerraform(this._lower),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       min_lower: {
-        value: cdktf.numberToHclTerraform(this._minLower),
+        value: cdktn.numberToHclTerraform(this._minLower),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       min_numeric: {
-        value: cdktf.numberToHclTerraform(this._minNumeric),
+        value: cdktn.numberToHclTerraform(this._minNumeric),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       min_special: {
-        value: cdktf.numberToHclTerraform(this._minSpecial),
+        value: cdktn.numberToHclTerraform(this._minSpecial),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       min_upper: {
-        value: cdktf.numberToHclTerraform(this._minUpper),
+        value: cdktn.numberToHclTerraform(this._minUpper),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       number: {
-        value: cdktf.booleanToHclTerraform(this._number),
+        value: cdktn.booleanToHclTerraform(this._number),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       numeric: {
-        value: cdktf.booleanToHclTerraform(this._numeric),
+        value: cdktn.booleanToHclTerraform(this._numeric),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       override_special: {
-        value: cdktf.stringToHclTerraform(this._overrideSpecial),
+        value: cdktn.stringToHclTerraform(this._overrideSpecial),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       special: {
-        value: cdktf.booleanToHclTerraform(this._special),
+        value: cdktn.booleanToHclTerraform(this._special),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       upper: {
-        value: cdktf.booleanToHclTerraform(this._upper),
+        value: cdktn.booleanToHclTerraform(this._upper),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
