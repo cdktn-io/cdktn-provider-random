@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.8
 #### Initializers <a name="Initializers" id="@cdktn/provider-random.pet.Pet.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/pet"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/pet"
 
 pet.NewPet(scope Construct, id *string, config PetConfig) Pet
 ```
@@ -428,7 +428,7 @@ func ResetSeparator()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-random.pet.Pet.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/pet"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/pet"
 
 pet.Pet_IsConstruct(x interface{}) *bool
 ```
@@ -460,7 +460,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-random.pet.Pet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/pet"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/pet"
 
 pet.Pet_IsTerraformElement(x interface{}) *bool
 ```
@@ -474,7 +474,7 @@ pet.Pet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-random.pet.Pet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/pet"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/pet"
 
 pet.Pet_IsTerraformResource(x interface{}) *bool
 ```
@@ -488,7 +488,7 @@ pet.Pet_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-random.pet.Pet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/pet"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/pet"
 
 pet.Pet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -816,7 +816,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-random.pet.PetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/pet"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/pet"
 
 &pet.PetConfig {
 	Connection: interface{},
