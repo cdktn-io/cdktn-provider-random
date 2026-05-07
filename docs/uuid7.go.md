@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.8
 #### Initializers <a name="Initializers" id="@cdktn/provider-random.uuid7.Uuid7.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/uuid7"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/uuid7"
 
 uuid7.NewUuid7(scope Construct, id *string, config Uuid7Config) Uuid7
 ```
@@ -407,7 +407,7 @@ func ResetKeepers()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-random.uuid7.Uuid7.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/uuid7"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/uuid7"
 
 uuid7.Uuid7_IsConstruct(x interface{}) *bool
 ```
@@ -439,7 +439,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-random.uuid7.Uuid7.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/uuid7"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/uuid7"
 
 uuid7.Uuid7_IsTerraformElement(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ uuid7.Uuid7_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-random.uuid7.Uuid7.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/uuid7"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/uuid7"
 
 uuid7.Uuid7_IsTerraformResource(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ uuid7.Uuid7_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-random.uuid7.Uuid7.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/uuid7"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/uuid7"
 
 uuid7.Uuid7_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -740,7 +740,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-random.uuid7.Uuid7Config.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v13/uuid7"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/uuid7"
 
 &uuid7.Uuid7Config {
 	Connection: interface{},
