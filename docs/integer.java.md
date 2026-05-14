@@ -4,7 +4,7 @@
 
 ### Integer <a name="Integer" id="@cdktn/provider-random.integer.Integer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer random_integer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer random_integer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-random.integer.Integer.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The maximum inclusive value of the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#max Integer#max}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#max Integer#max}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The minimum inclusive value of the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#min Integer#min}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#min Integer#min}
 
 ---
 
@@ -132,7 +132,7 @@ Arbitrary map of values that, when changed, will trigger recreation of resource.
 
 See [the main provider documentation](../index.html) for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#keepers Integer#keepers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#keepers Integer#keepers}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A custom seed to always produce the same value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#seed Integer#seed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#seed Integer#seed}
 
 ---
 
@@ -605,7 +605,7 @@ The construct id used in the generated config for the Integer to import.
 
 The id of the existing Integer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1030,7 +1030,7 @@ public java.lang.Number getMax();
 
 The maximum inclusive value of the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#max Integer#max}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#max Integer#max}
 
 ---
 
@@ -1044,7 +1044,7 @@ public java.lang.Number getMin();
 
 The minimum inclusive value of the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#min Integer#min}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#min Integer#min}
 
 ---
 
@@ -1060,7 +1060,7 @@ Arbitrary map of values that, when changed, will trigger recreation of resource.
 
 See [the main provider documentation](../index.html) for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#keepers Integer#keepers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#keepers Integer#keepers}
 
 ---
 
@@ -1074,7 +1074,7 @@ public java.lang.String getSeed();
 
 A custom seed to always produce the same value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/integer#seed Integer#seed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/integer#seed Integer#seed}
 
 ---
 

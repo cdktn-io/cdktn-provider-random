@@ -4,7 +4,7 @@
 
 ### Pet <a name="Pet" id="@cdktn/provider-random.pet.Pet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/pet random_pet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/pet random_pet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-random.pet.Pet.Initializer"></a>
 
@@ -517,7 +517,7 @@ The construct id used in the generated config for the Pet to import.
 
 The id of the existing Pet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/pet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/pet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -921,7 +921,7 @@ Arbitrary map of values that, when changed, will trigger recreation of resource.
 
 See [the main provider documentation](../index.html) for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/pet#keepers Pet#keepers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/pet#keepers Pet#keepers}
 
 ---
 
@@ -935,7 +935,7 @@ public readonly length: number;
 
 The length (in words) of the pet name. Defaults to 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/pet#length Pet#length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/pet#length Pet#length}
 
 ---
 
@@ -949,7 +949,7 @@ public readonly prefix: string;
 
 A string to prefix the name with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/pet#prefix Pet#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/pet#prefix Pet#prefix}
 
 ---
 
@@ -963,7 +963,7 @@ public readonly separator: string;
 
 The character to separate words in the pet name. Defaults to "-".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/pet#separator Pet#separator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/pet#separator Pet#separator}
 
 ---
 
