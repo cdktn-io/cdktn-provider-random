@@ -4,7 +4,7 @@
 
 ### Bytes <a name="Bytes" id="@cdktn/provider-random.bytes.Bytes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/bytes random_bytes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/bytes random_bytes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-random.bytes.Bytes.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the Bytes to import.
 
 The id of the existing Bytes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/bytes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/bytes#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -873,7 +873,7 @@ public double Length { get; set; }
 
 The number of bytes requested. The minimum value for length is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/bytes#length Bytes#length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/bytes#length Bytes#length}
 
 ---
 
@@ -889,7 +889,7 @@ Arbitrary map of values that, when changed, will trigger recreation of resource.
 
 See [the main provider documentation](../index.html) for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.8.1/docs/resources/bytes#keepers Bytes#keepers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/bytes#keepers Bytes#keepers}
 
 ---
 
