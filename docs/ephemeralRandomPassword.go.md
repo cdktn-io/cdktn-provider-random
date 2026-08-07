@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9
 #### Initializers <a name="Initializers" id="@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/ephemeralrandompassword"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/ephemeralrandompassword"
 
 ephemeralrandompassword.NewEphemeralRandomPassword(scope Construct, id *string, config EphemeralRandomPasswordConfig) EphemeralRandomPassword
 ```
@@ -358,7 +358,7 @@ func ResetUpper()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/ephemeralrandompassword"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/ephemeralrandompassword"
 
 ephemeralrandompassword.EphemeralRandomPassword_IsConstruct(x interface{}) *bool
 ```
@@ -390,7 +390,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/ephemeralrandompassword"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/ephemeralrandompassword"
 
 ephemeralrandompassword.EphemeralRandomPassword_IsTerraformElement(x interface{}) *bool
 ```
@@ -404,7 +404,7 @@ ephemeralrandompassword.EphemeralRandomPassword_IsTerraformElement(x interface{}
 ##### `IsTerraformEphemeralResource` <a name="IsTerraformEphemeralResource" id="@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.isTerraformEphemeralResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/ephemeralrandompassword"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/ephemeralrandompassword"
 
 ephemeralrandompassword.EphemeralRandomPassword_IsTerraformEphemeralResource(x interface{}) *bool
 ```
@@ -823,7 +823,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/ephemeralrandompassword"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/ephemeralrandompassword"
 
 &ephemeralrandompassword.EphemeralRandomPasswordConfig {
 	Count: interface{},

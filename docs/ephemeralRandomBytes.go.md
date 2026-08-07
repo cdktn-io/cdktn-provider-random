@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9
 #### Initializers <a name="Initializers" id="@cdktn/provider-random.ephemeralRandomBytes.EphemeralRandomBytes.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/ephemeralrandombytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/ephemeralrandombytes"
 
 ephemeralrandombytes.NewEphemeralRandomBytes(scope Construct, id *string, config EphemeralRandomBytesConfig) EphemeralRandomBytes
 ```
@@ -295,7 +295,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-random.ephemeralRandomBytes.EphemeralRandomBytes.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/ephemeralrandombytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/ephemeralrandombytes"
 
 ephemeralrandombytes.EphemeralRandomBytes_IsConstruct(x interface{}) *bool
 ```
@@ -327,7 +327,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-random.ephemeralRandomBytes.EphemeralRandomBytes.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/ephemeralrandombytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/ephemeralrandombytes"
 
 ephemeralrandombytes.EphemeralRandomBytes_IsTerraformElement(x interface{}) *bool
 ```
@@ -341,7 +341,7 @@ ephemeralrandombytes.EphemeralRandomBytes_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformEphemeralResource` <a name="IsTerraformEphemeralResource" id="@cdktn/provider-random.ephemeralRandomBytes.EphemeralRandomBytes.isTerraformEphemeralResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/ephemeralrandombytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/ephemeralrandombytes"
 
 ephemeralrandombytes.EphemeralRandomBytes_IsTerraformEphemeralResource(x interface{}) *bool
 ```
@@ -562,7 +562,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-random.ephemeralRandomBytes.EphemeralRandomBytesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/ephemeralrandombytes"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/ephemeralrandombytes"
 
 &ephemeralrandombytes.EphemeralRandomBytesConfig {
 	Count: interface{},
