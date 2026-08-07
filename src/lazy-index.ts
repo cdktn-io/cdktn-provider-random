@@ -14,5 +14,7 @@ Object.defineProperty(exports, 'stringResource', { get: function () { return req
 Object.defineProperty(exports, 'uuid', { get: function () { return require('./uuid'); } });
 Object.defineProperty(exports, 'uuid4', { get: function () { return require('./uuid4'); } });
 Object.defineProperty(exports, 'uuid7', { get: function () { return require('./uuid7'); } });
+Object.defineProperty(exports, 'ephemeralRandomBytes', { get: function () { return require('./ephemeral-random-bytes'); } });
+Object.defineProperty(exports, 'ephemeralRandomPassword', { get: function () { return require('./ephemeral-random-password'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 
