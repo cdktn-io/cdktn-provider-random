@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9
 #### Initializers <a name="Initializers" id="@cdktn/provider-random.shuffle.Shuffle.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/shuffle"
 
 shuffle.NewShuffle(scope Construct, id *string, config ShuffleConfig) Shuffle
 ```
@@ -421,7 +421,7 @@ func ResetSeed()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-random.shuffle.Shuffle.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/shuffle"
 
 shuffle.Shuffle_IsConstruct(x interface{}) *bool
 ```
@@ -453,7 +453,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-random.shuffle.Shuffle.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/shuffle"
 
 shuffle.Shuffle_IsTerraformElement(x interface{}) *bool
 ```
@@ -467,7 +467,7 @@ shuffle.Shuffle_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-random.shuffle.Shuffle.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/shuffle"
 
 shuffle.Shuffle_IsTerraformResource(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ shuffle.Shuffle_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-random.shuffle.Shuffle.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/shuffle"
 
 shuffle.Shuffle_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -820,7 +820,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-random.shuffle.ShuffleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-random-go/random/v14/shuffle"
+import "github.com/cdktn-io/cdktn-provider-random-go/random/v15/shuffle"
 
 &shuffle.ShuffleConfig {
 	Connection: interface{},
