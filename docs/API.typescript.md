@@ -5,6 +5,8 @@
 The following submodules are available:
 
 - [bytes](./bytes.typescript.md)
+- [ephemeralRandomBytes](./ephemeralRandomBytes.typescript.md)
+- [ephemeralRandomPassword](./ephemeralRandomPassword.typescript.md)
 - [id](./id.typescript.md)
 - [integer](./integer.typescript.md)
 - [password](./password.typescript.md)

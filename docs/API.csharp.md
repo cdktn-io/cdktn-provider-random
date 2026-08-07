@@ -5,6 +5,8 @@
 The following submodules are available:
 
 - [bytes](./bytes.csharp.md)
+- [ephemeralRandomBytes](./ephemeralRandomBytes.csharp.md)
+- [ephemeralRandomPassword](./ephemeralRandomPassword.csharp.md)
 - [id](./id.csharp.md)
 - [integer](./integer.csharp.md)
 - [password](./password.csharp.md)

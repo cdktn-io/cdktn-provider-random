@@ -5,6 +5,8 @@
 The following submodules are available:
 
 - [bytes](./bytes.go.md)
+- [ephemeralRandomBytes](./ephemeralRandomBytes.go.md)
+- [ephemeralRandomPassword](./ephemeralRandomPassword.go.md)
 - [id](./id.go.md)
 - [integer](./integer.go.md)
 - [password](./password.go.md)
