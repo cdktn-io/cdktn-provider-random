@@ -5,6 +5,8 @@
 The following submodules are available:
 
 - [bytes](./bytes.python.md)
+- [ephemeralRandomBytes](./ephemeralRandomBytes.python.md)
+- [ephemeralRandomPassword](./ephemeralRandomPassword.python.md)
 - [id](./id.python.md)
 - [integer](./integer.python.md)
 - [password](./password.python.md)

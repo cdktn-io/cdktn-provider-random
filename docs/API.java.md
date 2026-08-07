@@ -5,6 +5,8 @@
 The following submodules are available:
 
 - [bytes](./bytes.java.md)
+- [ephemeralRandomBytes](./ephemeralRandomBytes.java.md)
+- [ephemeralRandomPassword](./ephemeralRandomPassword.java.md)
 - [id](./id.java.md)
 - [integer](./integer.java.md)
 - [password](./password.java.md)

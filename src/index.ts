@@ -14,5 +14,7 @@ export * as stringResource from './string-resource/index';
 export * as uuid from './uuid/index';
 export * as uuid4 from './uuid4/index';
 export * as uuid7 from './uuid7/index';
+export * as ephemeralRandomBytes from './ephemeral-random-bytes/index';
+export * as ephemeralRandomPassword from './ephemeral-random-password/index';
 export * as provider from './provider/index';
 
