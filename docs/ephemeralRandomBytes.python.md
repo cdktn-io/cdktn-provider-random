@@ -4,7 +4,7 @@
 
 ### EphemeralRandomBytes <a name="EphemeralRandomBytes" id="@cdktn/provider-random.ephemeralRandomBytes.EphemeralRandomBytes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/bytes random_bytes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/bytes random_bytes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-random.ephemeralRandomBytes.EphemeralRandomBytes.Initializer"></a>
 
@@ -90,7 +90,7 @@ Must be unique amongst siblings in the same scope
 
 The number of bytes requested. The minimum value for length is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/bytes#length EphemeralRandomBytes#length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/bytes#length EphemeralRandomBytes#length}
 
 ---
 
@@ -728,7 +728,7 @@ length: typing.Union[int, float]
 
 The number of bytes requested. The minimum value for length is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/bytes#length EphemeralRandomBytes#length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/bytes#length EphemeralRandomBytes#length}
 
 ---
 

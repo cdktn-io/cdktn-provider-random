@@ -4,7 +4,7 @@
 
 ### EphemeralRandomPassword <a name="EphemeralRandomPassword" id="@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password random_password}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password random_password}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer"></a>
 
@@ -41,14 +41,14 @@ ephemeralRandomPassword.EphemeralRandomPassword(
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformEphemeralResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.length">length</a></code> | <code>typing.Union[int, float]</code> | The length of the string desired. |
+| <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.length">length</a></code> | <code>typing.Union[int, float]</code> | The length of the password desired. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.lower">lower</a></code> | <code>bool \| cdktn.IResolvable</code> | Include lowercase alphabet characters in the result. Default value is `true`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.minLower">min_lower</a></code> | <code>typing.Union[int, float]</code> | Minimum number of lowercase alphabet characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.minNumeric">min_numeric</a></code> | <code>typing.Union[int, float]</code> | Minimum number of numeric characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.minSpecial">min_special</a></code> | <code>typing.Union[int, float]</code> | Minimum number of special characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.minUpper">min_upper</a></code> | <code>typing.Union[int, float]</code> | Minimum number of uppercase alphabet characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.numeric">numeric</a></code> | <code>bool \| cdktn.IResolvable</code> | Include numeric characters in the result. |
-| <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.overrideSpecial">override_special</a></code> | <code>str</code> | Supply your own list of special characters to use for string generation. |
+| <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.overrideSpecial">override_special</a></code> | <code>str</code> | Supply your own list of special characters to use for password generation. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.special">special</a></code> | <code>bool \| cdktn.IResolvable</code> | Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPassword.Initializer.parameter.upper">upper</a></code> | <code>bool \| cdktn.IResolvable</code> | Include uppercase alphabet characters in the result. Default value is `true`. |
 
@@ -106,11 +106,11 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* typing.Union[int, float]
 
-The length of the string desired.
+The length of the password desired.
 
 The minimum value for length is 1 and, length must also be >= (`min_upper` + `min_lower` + `min_numeric` + `min_special`).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#length EphemeralRandomPassword#length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#length EphemeralRandomPassword#length}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Include lowercase alphabet characters in the result. Default value is `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#lower EphemeralRandomPassword#lower}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#lower EphemeralRandomPassword#lower}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum number of lowercase alphabet characters in the result. Default value is `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#min_lower EphemeralRandomPassword#min_lower}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#min_lower EphemeralRandomPassword#min_lower}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum number of numeric characters in the result. Default value is `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#min_numeric EphemeralRandomPassword#min_numeric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#min_numeric EphemeralRandomPassword#min_numeric}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum number of special characters in the result. Default value is `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#min_special EphemeralRandomPassword#min_special}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#min_special EphemeralRandomPassword#min_special}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum number of uppercase alphabet characters in the result. Default value is `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#min_upper EphemeralRandomPassword#min_upper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#min_upper EphemeralRandomPassword#min_upper}
 
 ---
 
@@ -172,7 +172,7 @@ Include numeric characters in the result.
 
 Default value is `true`. If `numeric`, `upper`, `lower`, and `special` are all configured, at least one of them must be set to `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#numeric EphemeralRandomPassword#numeric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#numeric EphemeralRandomPassword#numeric}
 
 ---
 
@@ -180,11 +180,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Supply your own list of special characters to use for string generation.
+Supply your own list of special characters to use for password generation.
 
 This overrides the default character list in the special argument.  The `special` argument must still be set to true for any overwritten characters to be used in generation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#override_special EphemeralRandomPassword#override_special}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#override_special EphemeralRandomPassword#override_special}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#special EphemeralRandomPassword#special}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#special EphemeralRandomPassword#special}
 
 ---
 
@@ -204,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Include uppercase alphabet characters in the result. Default value is `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#upper EphemeralRandomPassword#upper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#upper EphemeralRandomPassword#upper}
 
 ---
 
@@ -1048,14 +1048,14 @@ ephemeralRandomPassword.EphemeralRandomPasswordConfig(
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformEphemeralResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.length">length</a></code> | <code>typing.Union[int, float]</code> | The length of the string desired. |
+| <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.length">length</a></code> | <code>typing.Union[int, float]</code> | The length of the password desired. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.lower">lower</a></code> | <code>bool \| cdktn.IResolvable</code> | Include lowercase alphabet characters in the result. Default value is `true`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.minLower">min_lower</a></code> | <code>typing.Union[int, float]</code> | Minimum number of lowercase alphabet characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.minNumeric">min_numeric</a></code> | <code>typing.Union[int, float]</code> | Minimum number of numeric characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.minSpecial">min_special</a></code> | <code>typing.Union[int, float]</code> | Minimum number of special characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.minUpper">min_upper</a></code> | <code>typing.Union[int, float]</code> | Minimum number of uppercase alphabet characters in the result. Default value is `0`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.numeric">numeric</a></code> | <code>bool \| cdktn.IResolvable</code> | Include numeric characters in the result. |
-| <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.overrideSpecial">override_special</a></code> | <code>str</code> | Supply your own list of special characters to use for string generation. |
+| <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.overrideSpecial">override_special</a></code> | <code>str</code> | Supply your own list of special characters to use for password generation. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.special">special</a></code> | <code>bool \| cdktn.IResolvable</code> | Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`. |
 | <code><a href="#@cdktn/provider-random.ephemeralRandomPassword.EphemeralRandomPasswordConfig.property.upper">upper</a></code> | <code>bool \| cdktn.IResolvable</code> | Include uppercase alphabet characters in the result. Default value is `true`. |
 
@@ -1119,11 +1119,11 @@ length: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-The length of the string desired.
+The length of the password desired.
 
 The minimum value for length is 1 and, length must also be >= (`min_upper` + `min_lower` + `min_numeric` + `min_special`).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#length EphemeralRandomPassword#length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#length EphemeralRandomPassword#length}
 
 ---
 
@@ -1137,7 +1137,7 @@ lower: bool | IResolvable
 
 Include lowercase alphabet characters in the result. Default value is `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#lower EphemeralRandomPassword#lower}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#lower EphemeralRandomPassword#lower}
 
 ---
 
@@ -1151,7 +1151,7 @@ min_lower: typing.Union[int, float]
 
 Minimum number of lowercase alphabet characters in the result. Default value is `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#min_lower EphemeralRandomPassword#min_lower}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#min_lower EphemeralRandomPassword#min_lower}
 
 ---
 
@@ -1165,7 +1165,7 @@ min_numeric: typing.Union[int, float]
 
 Minimum number of numeric characters in the result. Default value is `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#min_numeric EphemeralRandomPassword#min_numeric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#min_numeric EphemeralRandomPassword#min_numeric}
 
 ---
 
@@ -1179,7 +1179,7 @@ min_special: typing.Union[int, float]
 
 Minimum number of special characters in the result. Default value is `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#min_special EphemeralRandomPassword#min_special}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#min_special EphemeralRandomPassword#min_special}
 
 ---
 
@@ -1193,7 +1193,7 @@ min_upper: typing.Union[int, float]
 
 Minimum number of uppercase alphabet characters in the result. Default value is `0`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#min_upper EphemeralRandomPassword#min_upper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#min_upper EphemeralRandomPassword#min_upper}
 
 ---
 
@@ -1209,7 +1209,7 @@ Include numeric characters in the result.
 
 Default value is `true`. If `numeric`, `upper`, `lower`, and `special` are all configured, at least one of them must be set to `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#numeric EphemeralRandomPassword#numeric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#numeric EphemeralRandomPassword#numeric}
 
 ---
 
@@ -1221,11 +1221,11 @@ override_special: str
 
 - *Type:* str
 
-Supply your own list of special characters to use for string generation.
+Supply your own list of special characters to use for password generation.
 
 This overrides the default character list in the special argument.  The `special` argument must still be set to true for any overwritten characters to be used in generation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#override_special EphemeralRandomPassword#override_special}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#override_special EphemeralRandomPassword#override_special}
 
 ---
 
@@ -1239,7 +1239,7 @@ special: bool | IResolvable
 
 Include special characters in the result. These are `!@#$%&*()-_=+[]{}<>:?`. Default value is `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#special EphemeralRandomPassword#special}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#special EphemeralRandomPassword#special}
 
 ---
 
@@ -1253,7 +1253,7 @@ upper: bool | IResolvable
 
 Include uppercase alphabet characters in the result. Default value is `true`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/password#upper EphemeralRandomPassword#upper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/password#upper EphemeralRandomPassword#upper}
 
 ---
 
