@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/bytes
+// https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/bytes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface EphemeralRandomBytesConfig extends cdktn.TerraformEphemeralMeta
   /**
   * The number of bytes requested. The minimum value for length is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/bytes#length EphemeralRandomBytes#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/bytes#length EphemeralRandomBytes#length}
   */
   readonly length: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/bytes random_bytes}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/bytes random_bytes}
 */
 export class EphemeralRandomBytes extends cdktn.TerraformEphemeralResource {
 
@@ -35,7 +35,7 @@ export class EphemeralRandomBytes extends cdktn.TerraformEphemeralResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/ephemeral-resources/bytes random_bytes} Ephemeral Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/ephemeral-resources/bytes random_bytes} Ephemeral Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -46,7 +46,7 @@ export class EphemeralRandomBytes extends cdktn.TerraformEphemeralResource {
       terraformResourceType: 'random_bytes',
       terraformGeneratorMetadata: {
         providerName: 'random',
-        providerVersion: '3.9.0',
+        providerVersion: '3.9.1',
         providerVersionConstraint: '~> 3.1'
       },
       provider: config.provider,
